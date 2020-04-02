@@ -12,7 +12,7 @@ export default class homepage extends Component {
             <Container>
                 <Jumbotron>
                     <h2>Welcome to my Personal Page</h2>
-                    <p>Ini untuk UTS Pemograman Berbasis FrameWork</p>
+                    <p>Ini untuk UTS Pemograman Berbasis Framework</p>
 
                     <Link to="/about">
                         <Button bsStyle="primary">About</Button>
