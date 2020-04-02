@@ -1,0 +1,13 @@
+.background {
+    background-color: lightblue;
+  }
+  
+  .white {
+    color: white;
+    text-align: center;
+  }
+  
+  p.font{
+    font-family: verdana;
+    font-size: 20px;
+  }

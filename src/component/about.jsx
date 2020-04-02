@@ -1,47 +1,23 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import './about.css'
+import Saya from '../image/saya.png';
+import "../image/image.css";
+import "./homepage.css"
 
-export default class about extends Component{
-    render(){
-        return(
-            <div>
-        <section id="colorlib-hero" className="js-fullheight" data-section="home">
-            <div className="flexslider js-fullheight">
-                <ul className="slides">
-                <li style={{backgroundImage: 'url(images/img_bg_1.jpg)'}}>
-                    <div className="overlay" />
-                    <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-                        <div className="slider-text-inner js-fullheight">
-                            <div className="desc">
-                            <h1>Hi! <br />I'm Jackson</h1>
-                            
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </li>
-                <li style={{backgroundImage: 'url(images/img_bg_2.jpg)'}}>
-                    <div className="overlay" />
-                    <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-                        <div className="slider-text-inner">
-                            <div className="desc">
-                            <h1>I am <br />a Designer</h1>
-                            <h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2>
-                            <p><a className="btn btn-primary btn-learn">View Portfolio <em className="icon-briefcase3" /></a></p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </li>
-                </ul>
+export default class about extends Component {
+    render() {
+        return (
+            <div className="container">
+
+                <div className="white">
+                    <p className="font">About Me</p>
+                    <img className="photo" src={Saya} />
+                    <br></br>
+                    <h3 className="white">Taufik</h3>
+                    <h3 className="white">1741720185</h3>
+                    <h3 className="white">TI-3A</h3>
+                </div>
             </div>
-        </section>
-      </div>
         )
     }
 }
