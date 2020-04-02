@@ -4,11 +4,14 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import homepage from './component/homepage';
 import about from './component/about';
 import contact from './component/contact';
+// import CustomNavbar from './component/CustomNavbar';
+import Navbar from './component/NewNavbar';
 
 function App() {
   return(
     <Router>
-      <div>
+      <div className="container">
+        <Navbar />
         <Route exact path="/" component={homepage}/>
         <Route path="/about" component={about}/>
         <Route path="/contact" component={contact}/>
