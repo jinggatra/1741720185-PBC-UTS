@@ -9,14 +9,17 @@ import Navbar from './component/NewNavbar';
 
 function App() {
   return(
+    <div className="container">
+
     <Router>
-      <div className="container">
         <Navbar />
         <Route exact path="/" component={homepage}/>
         <Route path="/about" component={about}/>
         <Route path="/contact" component={contact}/>
-      </div>
+      
     </Router>
+    
+    </div>
   )
 }
 
